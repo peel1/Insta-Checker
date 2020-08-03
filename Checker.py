@@ -3,7 +3,7 @@ from typing import Any, Union
 import requests
 def Redline(Run):
 
-    listname = input("name of user:pass list (must be in same directory as script)")
+    listname = input("name of user:pass list (must be in same directory as script) for example: usernameandpassword.txt")
     passlist = open(listname, "r", encoding="utf8")
     x = int(0)
     while Run == True:
