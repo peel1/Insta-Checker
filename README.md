@@ -4,7 +4,7 @@
 Instagram Account checker that will check username/email:password to see if the account credentials are correct. Then it will write sucessful username:passwords to a file called Accounts.txt. 
 
 ## Note
-The use of VPN is advised for your security however you cant get rate limited using this method so it is not essential
+The use of VPN is advised for your security however you can get rate limited using it so it is not essential
 
 ### Installation
 Linux:
