@@ -10,7 +10,7 @@ Proxys must be formated IP:Port and must be HTTPS. ANY slow results is solely ba
 ### recomended proxys 1000 
 ### max proxys: 10k
 
-### Installation
+## Installation
 Linux:
  '''
   git clone https://github.com/peel1/Insta-Checker
