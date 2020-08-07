@@ -70,7 +70,6 @@ def PostRequest(email, passw, responseshrt, x, prozxy):
     FixedError = str(b'{"message": "feed')
     FixedError2 = str(b'{"message": "Plea')
     Errorshrt = str(b'{"errors": {"erro')
-    print(responseshrt)
     if responseshrt == Fixed:
         accounts = open("Accounts.txt", "w")
         accounts.write("{}:{}".format(email, passw))
