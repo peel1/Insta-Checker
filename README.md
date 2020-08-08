@@ -6,7 +6,9 @@ Instagram Account checker that will check username/email:password to see if the 
 # Notes
 Proxys are mandatory because instagram will simply block you otherwise so the program would be useless without them
 ## Proxys
-Proxys must be formated IP:Port and must be HTTPS. ANY slow results is solely based off proxy speed as multithreading means the program is able to check the response as soon as it arrives. If the error "requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /accounts/login/ajax/ (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden')))
+# Proxys must be formated IP:Port and must be HTTPS. ANY slow results is solely based off proxy speed as multithreading means the program is able to check the response as soon as it arrives.
+
+If the error "requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /accounts/login/ajax/ (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden')))
 " Arrives. This  error means there are not enough proxys and instagram has blocked that specific proxy due to overuse. The program will pick proxys at complete random. A large proxy list (GBs) will cause the program to run slowly.
 ### recomended proxys 1000 
 ### max proxys: 10k
