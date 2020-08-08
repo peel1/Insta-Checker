@@ -13,7 +13,7 @@ Proxys must be formated IP:Port and must be HTTPS. ANY slow results is solely ba
 
 ## Installation
 Linux:
- '''
+```
   git clone https://github.com/peel1/Insta-Checker
   
   pip install requests
@@ -26,7 +26,7 @@ Linux:
   
   python3 Checker.py
   
-  '''
+ ```
 
 
 # Disclamer
