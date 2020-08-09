@@ -10,8 +10,10 @@ Proxys are mandatory because instagram will simply block you otherwise so the pr
 
 If the error "requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.instagram.com', port=443): Max retries exceeded with url: /accounts/login/ajax/ (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 403 Forbidden')))
 " Arrives. This  error means there are not enough proxys and instagram has blocked that specific proxy due to overuse or the proxy being public and therfore other people have used it and instagram have blocked it due to their use. The program will pick proxys at complete random. A large proxy list (GBs) will cause the program to run slowly.
-### recomended proxys 1000 
+### recomended proxys 500-1000 
 ### max proxys: 10k
+
+# Best cheap proxy provider + free proxys:https://bit.ly/2PE3FDS
 
 ## Installation
 Linux:
