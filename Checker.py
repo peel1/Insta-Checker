@@ -18,16 +18,10 @@ def Redline(Run, listname, x, proxylist):
         email = ltemp.partition(":")[0]
         passw = ltemp.partition(":")[2]
         passw = passw.rstrip()
-        s = open(proxylist, "r")
-        m = s.readlines()
-        l = []
-        for i in range(0, len(m) - 1):
-            g = m[i]
-            z = len(g)
-            a = g[:z - 1]
-            l.append(a)
-        l.append(m[i + 1])
-        o = random.choice(l)
+        with open(proxylist) as f:
+            lines = [line.rstrip('\n') for line in f]
+        rnd_line = random.choice(lines)
+        o = rnd_line[:-1]
         proxzy = "https://" + o
         proxz = {
             'https': proxzy,
