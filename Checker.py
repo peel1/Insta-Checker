@@ -26,7 +26,6 @@ def Redline(Run, listname, x, proxylist):
         proxz = {
             'https': proxzy,
         }
-        s.close()
         if email == "" and passw == "":
             print("End of File Reached. Exiting Program...")
             Run = False
