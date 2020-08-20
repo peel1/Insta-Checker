@@ -16,7 +16,7 @@ If the error "requests.exceptions.ProxyError: HTTPSConnectionPool(host='www.inst
 ### Best cheap proxy provider + free proxys: https://bit.ly/2DPFwHI
 
 ## Installation
-Linux:
+Linux + Windows:
 ```
   git clone https://github.com/peel1/Insta-Checker
   
