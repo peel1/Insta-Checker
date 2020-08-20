@@ -24,7 +24,7 @@ Linux:
   
   pip install threading
   
-  pip install itertools / pip install more-itertools
+  pip install itertools
   
   cd Insta-Checker
   
