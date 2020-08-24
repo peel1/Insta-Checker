@@ -4,7 +4,7 @@
 Instagram Account checker that will check username/email:password to see if the account credentials are correct. Then it will write sucessful username:passwords to a file called Accounts.txt. 
 
 # Notes
-Proxys are mandatory because instagram will simply block you otherwise so the program would be useless without them
+Proxys are mandatory because instagram will simply block you otherwise so the program would be useless without them.
 ## Proxys
 ### Proxys must be formated IP:Port and must be HTTPS. ANY slow results is solely based off proxy speed as multithreading means the program is able to check the response as soon as it arrives.
 
