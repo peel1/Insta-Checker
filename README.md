@@ -34,8 +34,11 @@ Linux + Windows:
 
 ## Donate
 Any donations would be very much appricate :)
+
 Zcash : t1gpghwd8upq9ftPgbQSmsamQDdWdhyqGEj
+
 Bitcoin : 37vhDPKUbaB14jKFBUB3bG8gq4dopBCE5C
+
 Ethereum : 0x22f4532d2f6b73e33db1f05df9a55a83b7e7c716 
 
 
