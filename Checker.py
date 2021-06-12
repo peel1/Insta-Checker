@@ -65,7 +65,7 @@ def PostRequest(email, passw, responseshrt, x, prozxy):
     Errorshrt = str(b'{"errors": {"erro')
     if responseshrt == Fixed:
         accounts = open("Accounts.txt", "w")
-        accounts.write("{}:{}".format(email, passw))
+        accounts.write("{}:{}\n".format(email, passw))
         print("Line {} contains a valid credentials and has been written to Accounts.txt".format(x))
         accounts.close()
     elif responseshrt == FixedRetry:
